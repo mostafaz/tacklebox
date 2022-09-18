@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hello :) <br/>
 
-## Getting Started
+# Table of content
+- [Packages Used](#packages-used)
+- [Installation](#installation)
+- [App Structure](#app-structure)
+<br/><br/>
 
-First, run the development server:
+# Packages Used
+[REACT JS](https://reactjs.org/) : JavsScript Library for building (SPA).<br/>
+[TAILWIND CSS](https://tailwindcss.com/docs/installation) : CSS framwork.<br/>
+[PROP TYPES](https://www.npmjs.com/package/prop-types): Prop type checking for developer.<br/>
+[ESLINT](https://eslint.org/): Is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.<br/>
+[AXIOS](https://axios-http.com/): Handle APIs requests.<br/>
+[CLASSNAMES](https://www.npmjs.com/package/classnames): Class condintions.<br/>
+<br/><br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# App Structure
+    Components containing form fields module
+    Hooks: containing custom hooks.
+    Pages: containing home page.
+    API: containing endpoints, methods, operations, and request.
+    Store: containing Actions, Reducers, and states.
+    Utils containing styles and localstorage methods.
+<br/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Installation
+    1- Install packages: `npm install`
+    2- Run the project: `npm run dev`, should startig at http://localhost:3001
+    3- Build the project: `npm run build`
+<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Thank You!
